@@ -300,22 +300,18 @@
       <section id="proyectos">
         <h3>Proyectos</h3>
         <div class="botones-filtrar">
-          <button class="boton-filtrar" onclick="filterProjects('frontend')">
+          <button class="boton-filtrar" data-category="frontend">
             Frontend
           </button>
-          <button class="boton-filtrar" onclick="filterProjects('backend')">
-            Backend
-          </button>
-          <button class="boton-filtrar" onclick="filterProjects('fullstack')">
+          <button class="boton-filtrar" data-category="backend">Backend</button>
+          <button class="boton-filtrar" data-category="fullstack">
             Fullstack
           </button>
-          <button class="boton-filtrar" onclick="filterProjects('e-commerce')">
+          <button class="boton-filtrar" data-category="e-commerce">
             E-commerce
           </button>
-          <button class="boton-filtrar" onclick="filterProjects('desktop')">
-            Desktop
-          </button>
-          <button class="boton-filtrar todos" onclick="filterProjects('')">
+          <button class="boton-filtrar" data-category="desktop">Desktop</button>
+          <button class="boton-filtrar todos" data-category="">
             Mostrar Todos
           </button>
         </div>
@@ -330,8 +326,10 @@
             href="https://github.com/ivanshifman"
             target="_blank"
             rel="noopener"
+            class="github-a"
           >
-            <strong class="movez"> >>> </strong> GitHub
+            <strong class="movez"> >>> </strong>
+            <span class="github-text">GitHub</span>
             <strong class="moved"> <<< </strong></a
           >
         </h3>
@@ -382,14 +380,14 @@
       </section>
     </main>
     <footer id="footer" class="hidden">
-      <p class="footer-copy"><span id="current-year"></span> By Iván Shifman.</p>
+      <p class="footer-copy">
+        <span id="current-year"></span> By Iván Shifman.
+      </p>
       <p class="footer-rights">&copy; Todos los derechos reservados</p>
     </footer>
 
     <!-- JavaScript -->
-    <script src="./js/script.js"></script>
-    <script src="/js/education.js"></script>
-    <script src="/js/experience.js"></script>
+    <script type="module" src="./js/main.js"></script>
     <script src="./js/form.js"></script>
   </body>
 </html>

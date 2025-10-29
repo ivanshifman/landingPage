@@ -78,6 +78,16 @@
   margin: 10px 0;
 }
 
+.github-a {
+  color: #4b0082;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.dark-mode .github-a {
+  color: #fff;
+}
+
 .movez {
   display: inline-block;
   animation: moveRight 1s infinite alternate;
