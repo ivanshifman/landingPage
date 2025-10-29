@@ -1,0 +1,44 @@
+#contacto {
+  padding: 3px;
+  background-color: #eeeafd;
+  border-radius: 20px;
+  border: 10px solid #4b0082;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.contacto-info {
+  margin-top: 20px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  font-size: 1em;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input,
+textarea {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: none;
+}

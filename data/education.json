@@ -1,0 +1,130 @@
+{
+  "es": {
+    "educacion": [
+      {
+        "titulo": "Tecnicatura Superior en Desarrollo de Software",
+        "subtitulo": "Instituto de Formación Técnica Superior N°29",
+        "fecha": "mar. 2025 - jun. 2027",
+        "descripcion": "Estudios orientados al desarrollo de software, incluyendo programación, bases de datos, UML, .NET, C#, Oracle, SQL Server y seguridad de sistemas."
+      },
+      {
+        "titulo": "Desarrollador Full Stack",
+        "subtitulo": "Coderhouse",
+        "fecha": "jul. 2023 - dic. 2024",
+        "descripcion": "Formación en desarrollo web full stack: React.js, Node.js, NestJS, MongoDB y Express.js."
+      },
+      {
+        "titulo": "Desarrollo Frontend React",
+        "subtitulo": "Coderhouse",
+        "fecha": "jul. 2023 - feb. 2024",
+        "descripcion": "Curso de desarrollo frontend con React.js, manejo de estado con Zustand y Firebase."
+      },
+      {
+        "titulo": "Desarrollo Avanzado Backend",
+        "subtitulo": "Coderhouse",
+        "fecha": "abr. 2024 - jun. 2024",
+        "descripcion": "Profundización en backend con Node.js, MongoDB, Express.js y Mongoose."
+      },
+      {
+        "titulo": "Diseño y Arquitectura Backend",
+        "subtitulo": "Coderhouse",
+        "fecha": "jun. 2024 - ago. 2024",
+        "descripcion": "Diseño de arquitecturas backend escalables y mantenimiento de sistemas complejos."
+      },
+      {
+        "titulo": "Testing y Escalabilidad Backend",
+        "subtitulo": "Coderhouse",
+        "fecha": "oct. 2024 - dic. 2024",
+        "descripcion": "Implementación de testing automatizado con Jest, Docker, Kubernetes y documentación con Swagger."
+      },
+      {
+        "titulo": "SQL y Análisis de Datos",
+        "subtitulo": "Coderhouse",
+        "fecha": "mar. 2025 - jun. 2025",
+        "descripcion": "Curso enfocado en SQL, MySQL, Power BI y análisis de datos."
+      },
+      {
+        "titulo": "Programación Informática (HTML, CSS, Bootstrap)",
+        "subtitulo": "Coderhouse",
+        "fecha": "jun. 2023 - ago. 2023",
+        "descripcion": "Introducción al desarrollo web con HTML, CSS (Sass) y Bootstrap."
+      },
+      {
+        "titulo": "Técnico Radiólogo",
+        "subtitulo": "Universidad de Buenos Aires",
+        "fecha": "ene. 2022 - dic. 2024",
+        "descripcion": "Formación técnica en radiología, anatomía y seguridad en imágenes médicas."
+      },
+      {
+        "titulo": "Curso de Inglés (Marco Común Europeo de Referencia)",
+        "subtitulo": "Universidad de Buenos Aires",
+        "fecha": "jun. 2023 - ago. 2023",
+        "descripcion": "Formación en lengua inglesa según el estándar MCER."
+      }
+    ]
+  },
+  "en": {
+    "educacion": [
+      {
+        "titulo": "Higher Technician in Software Development",
+        "subtitulo": "Instituto de Formación Técnica Superior N°29",
+        "fecha": "Mar 2025 - Jun 2027",
+        "descripcion": "Software development studies including programming, databases, UML, .NET, C#, Oracle, SQL Server, and system security."
+      },
+      {
+        "titulo": "Full Stack Developer",
+        "subtitulo": "Coderhouse",
+        "fecha": "Jul 2023 - Dec 2024",
+        "descripcion": "Full stack web development: React.js, Node.js, NestJS, MongoDB, and Express.js."
+      },
+      {
+        "titulo": "Frontend React Development",
+        "subtitulo": "Coderhouse",
+        "fecha": "Jul 2023 - Feb 2024",
+        "descripcion": "Frontend development course with React.js, Zustand for state management, and Firebase integration."
+      },
+      {
+        "titulo": "Advanced Backend Development",
+        "subtitulo": "Coderhouse",
+        "fecha": "Apr 2024 - Jun 2024",
+        "descripcion": "Advanced backend concepts with Node.js, MongoDB, Express.js, and Mongoose."
+      },
+      {
+        "titulo": "Backend Design and Architecture",
+        "subtitulo": "Coderhouse",
+        "fecha": "Jun 2024 - Aug 2024",
+        "descripcion": "Design of scalable backend architectures and system maintenance strategies."
+      },
+      {
+        "titulo": "Backend Testing and Scalability",
+        "subtitulo": "Coderhouse",
+        "fecha": "Oct 2024 - Dec 2024",
+        "descripcion": "Automated testing with Jest, Docker, Kubernetes, and API documentation using Swagger."
+      },
+      {
+        "titulo": "SQL and Data Analysis",
+        "subtitulo": "Coderhouse",
+        "fecha": "Mar 2025 - Jun 2025",
+        "descripcion": "SQL, MySQL, Power BI, and data analytics training."
+      },
+      {
+        "titulo": "Web Programming (HTML, CSS, Bootstrap)",
+        "subtitulo": "Coderhouse",
+        "fecha": "Jun 2023 - Aug 2023",
+        "descripcion": "Introduction to web development using HTML, CSS (Sass), and Bootstrap framework."
+      },
+      {
+        "titulo": "Radiologic Technologist",
+        "subtitulo": "University of Buenos Aires",
+        "fecha": "Jan 2022 - Dec 2024",
+        "descripcion": "Technical training in radiology, anatomy, and medical imaging safety."
+      },
+      {
+        "titulo": "English Course (CEFR Framework)",
+        "subtitulo": "University of Buenos Aires",
+        "fecha": "Jun 2023 - Aug 2023",
+        "descripcion": "English language course based on the Common European Framework of Reference (CEFR)."
+      }
+    ]
+  }
+}

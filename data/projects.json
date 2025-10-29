@@ -1,0 +1,192 @@
+{
+  "es": {
+    "proyecto": [
+      {
+        "nombre": "TechZone",
+        "descripcion": "TechZone es una plataforma de comercio electrónico especializada en la venta de productos tecnológicos. Desarrollé tanto el frontend como el backend, implementando un ecosistema completo con autenticación, gestión de productos, carritos, pedidos y pagos seguros con Stripe. <strong>El proyecto está enfocado en ofrecer una experiencia de compra moderna, fluida y eficiente, integrando tecnologías como Next.js, NestJS y MongoDB para un rendimiento óptimo. </strong>",
+        "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1761718037/landingPage/techzone_ejqm0s.png",
+        "github": "https://github.com/ivanshifman/techzone-frontend",
+        "githubBack": "https://github.com/ivanshifman/techzone-backend",
+        "demo": "https://techzone-frontend.vercel.app/",
+        "tec": [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "Node.js",
+          "NestJS",
+          "MongoDB",
+          "Stripe"
+        ],
+        "categoria": ["e-commerce", "fullstack", "tecnología"],
+        "verCodigo": "Ver Código Frontend",
+        "verCodigoBack": "Ver Código Backend",
+        "verDemo": "Ver Demo"
+      },
+      {
+        "nombre": "Shifman Inventory Manager",
+        "descripcion": "Shifman Inventory Manager es un sistema full-stack de gestión de inventarios diseñado para controlar, visualizar y administrar productos de manera eficiente. <strong>Desarrollé tanto el frontend como el backend</strong>, implementando un entorno escalable con validaciones, seguridad, y un panel interactivo para análisis de datos y gestión avanzada de stock.",
+        "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1761718037/landingPage/shifmanmanager_k44cdj.png",
+        "github": "https://github.com/ivanshifman/inventory-management-shifman",
+        "demo": "https://inventory-management-shifman-1o2d.onrender.com/",
+        "tec": [
+          "React",
+          "Next.js",
+          "Express.js",
+          "Node.js",
+          "Prisma",
+          "PostgreSQL",
+          "TypeScript"
+        ],
+        "categoria": ["fullstack", "gestión", "dashboard"],
+        "verCodigo": "Ver Código",
+        "verDemo": "Ver Demo"
+      },
+      {
+        "nombre": "ShopCart",
+        "descripcion": "ShopCart es una aplicación web de comercio electrónico desarrollada en React que ofrece una experiencia de compra fluida, intuitiva y moderna. Permite explorar productos, filtrarlos por categorías, agregarlos al carrito y realizar compras de manera segura. <strong>El proyecto incluye autenticación, gestión de productos, reseñas y búsqueda en tiempo real</strong>, todo respaldado con Firebase.",
+        "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1761718037/landingPage/shopcart_tgc8rd.png",
+        "github": "https://github.com/ivanshifman/shop-cart",
+        "demo": "https://shop-cart-85bb3.web.app/",
+        "tec": ["React", "Firebase", "CSS3", "SASS"],
+        "categoria": ["frontend", "e-commerce"],
+        "verCodigo": "Ver Código",
+        "verDemo": "Ver Demo"
+      },
+      {
+        "nombre": "Computronix",
+        "descripcion": "Computronix es una tienda online de productos tecnológicos desarrollada con React. Permite a los usuarios navegar por categorías, agregar productos al carrito, revisar el total de su compra y completar el proceso de pago mediante formularios validados. <strong>El proyecto destaca por su enfoque en la experiencia de usuario, integración con Firebase y diseño modular basado en componentes reutilizables.</strong>",
+        "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1761718036/landingPage/computronix_bgmnu4.png",
+        "github": "https://github.com/ivanshifman/shifman-react",
+        "demo": "https://shifman-react.vercel.app/",
+        "tec": ["React", "Firebase", "JavaScript", "CSS3"],
+        "categoria": ["frontend", "e-commerce"],
+        "verCodigo": "Ver Código",
+        "verDemo": "Ver Demo"
+      },
+      {
+        "nombre": "Club Deportivo",
+        "descripcion": "Club Deportivo es un sistema integral de gestión y autoservicio desarrollado en C# con .NET Framework y MySQL. Permite administrar socios, actividades, cuotas y pagos desde un entorno de escritorio intuitivo. <strong>Incluye módulos diferenciados para socios, no socios y administradores</strong>, integrando formularios validados, control de acceso y un manejo eficiente de datos mediante repositorios personalizados.",
+        "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1761718035/landingPage/clubdeportivo_pqwmli.png",
+        "github": "https://github.com/ivanshifman/ClubDeportivo",
+        "tec": ["C#", ".NET Framework (Windows Forms)", "MySQL"],
+        "categoria": ["desktop", "gestión"],
+        "verCodigo": "Ver Código"
+      },
+      {
+        "nombre": "Sinfonix",
+        "descripcion": "Sinfonix es una tienda en línea de instrumentos musicales desarrollada como proyecto final del curso de JavaScript en Coderhouse. Permite explorar una amplia variedad de instrumentos, agregarlos al carrito, gestionar cantidades y completar el proceso de compra con confirmación. <strong>Incluye modo oscuro, alertas personalizadas y validación dinámica de formularios</strong> para una experiencia moderna y fluida.",
+        "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1761718037/landingPage/sinfonix_w1a3iv.png",
+        "github": "https://github.com/ivanshifman/ShifmanProyectoJS",
+        "demo": "https://ivanshifman.github.io/ShifmanProyectoJS/",
+        "tec": ["HTML5", "CSS3", "JavaScript"],
+        "categoria": ["frontend"],
+        "verCodigo": "Ver Código",
+        "verDemo": "Ver Demo"
+      },
+      {
+        "nombre": "Shifman Backend Proyecto",
+        "descripcion": "Proyecto final del curso de Backend en Coderhouse. Se trata de una aplicación de comercio electrónico desarrollada con Node.js, Express.js y MongoDB, que permite gestionar productos, carritos y usuarios. <strong>Incluye autenticación con Passport y JWT, validaciones con Joi, actualizaciones en tiempo real con Socket.io, testing automatizado y envío de notificaciones por correo y SMS</strong>.",
+        "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1761718036/landingPage/shifmandesbackend_r1ahsh.png",
+        "github": "https://github.com/ivanshifman/shifman-des-backend",
+        "tec": ["Node.js", "Express.js", "MongoDB", "Swagger"],
+        "categoria": ["backend", "e-commerce"],
+        "verCodigo": "Ver Código"
+      }
+    ]
+  },
+  "en": {
+    "proyecto": [
+      {
+        "nombre": "TechZone",
+        "descripcion": "TechZone is an e-commerce platform specializing in the sale of technology products. I developed both the frontend and backend, implementing a complete ecosystem with authentication, product management, shopping carts, orders, and secure payments with Stripe. The project is focused on offering a modern, fluid, and efficient shopping experience, integrating technologies such as Next.js, NestJS, and MongoDB for optimal performance.",
+        "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1761718037/landingPage/techzone_ejqm0s.png",
+        "github": "https://github.com/ivanshifman/techzone-frontend",
+        "githubBack": "https://github.com/ivanshifman/techzone-backend",
+        "demo": "https://techzone-frontend.vercel.app/",
+        "tec": [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "Node.js",
+          "NestJS",
+          "MongoDB",
+          "Stripe"
+        ],
+        "categoria": ["e-commerce", "fullstack", "tecnology"],
+        "verCodigo": "See Code Frontend",
+        "verCodigoBack": "See Code Backend",
+        "verDemo": "See Demo"
+      },
+      {
+        "nombre": "Shifman Inventory Manager",
+        "descripcion": "Shifman Inventory Manager is a full-stack inventory management system designed to efficiently track, visualize, and manage products. I developed both the frontend and backend, implementing a scalable environment with validations, security, and an interactive dashboard for data analysis and advanced inventory management.",
+        "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1761718037/landingPage/shifmanmanager_k44cdj.png",
+        "github": "https://github.com/ivanshifman/inventory-management-shifman",
+        "demo": "https://inventory-management-shifman-1o2d.onrender.com/",
+        "tec": [
+          "React",
+          "Next.js",
+          "Express.js",
+          "Node.js",
+          "Prisma",
+          "PostgreSQL",
+          "TypeScript"
+        ],
+        "categoria": ["fullstack", "management", "dashboard"],
+        "verCodigo": "See Code",
+        "verDemo": "See Demo"
+      },
+      {
+        "nombre": "ShopCart",
+        "descripcion": "ShopCart is an e-commerce web application built in React that offers a fluid, intuitive, and modern shopping experience. It allows you to browse products, filter by category, add them to your cart, and checkout securely. <strong>The project includes authentication, product management, reviews, and real-time search</strong>, all powered by Firebase.",
+        "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1761718037/landingPage/shopcart_tgc8rd.png",
+        "github": "https://github.com/ivanshifman/shop-cart",
+        "demo": "https://shop-cart-85bb3.web.app/",
+        "tec": ["React", "Firebase", "CSS3", "SASS"],
+        "categoria": ["frontend", "e-commerce"],
+        "verCodigo": "See Code",
+        "verDemo": "See Demo"
+      },
+      {
+        "nombre": "Computronix",
+        "descripcion": "Computronix is ​​an online tech store built with React. It allows users to browse categories, add products to their cart, review their purchase total, and complete the checkout process using validated forms. <strong>The project stands out for its focus on user experience, Firebase integration, and modular design based on reusable components.</strong>",
+        "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1761718036/landingPage/computronix_bgmnu4.png",
+        "github": "https://github.com/ivanshifman/shifman-react",
+        "demo": "https://shifman-react.vercel.app/",
+        "tec": ["React", "Firebase", "JavaScript", "CSS3"],
+        "categoria": ["frontend", "e-commerce"],
+        "verCodigo": "See Code",
+        "verDemo": "See Demo"
+      },
+      {
+        "nombre": "Club Deportivo",
+        "descripcion": "Club Deportivo is a comprehensive management and self-service system developed in C# with the .NET Framework and MySQL. It allows you to manage members, activities, dues, and payments from an intuitive desktop environment. <strong>It includes separate modules for members, non-members, and administrators</strong>, integrating validated forms, access control, and efficient data management through custom repositories.",
+        "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1761718035/landingPage/clubdeportivo_pqwmli.png",
+        "github": "https://github.com/ivanshifman/ClubDeportivo",
+        "tec": ["C#", ".NET Framework (Windows Forms)", "MySQL"],
+        "categoria": ["desktop", "management"],
+        "verCodigo": "See Code"
+      },
+      {
+        "nombre": "Sinfonix",
+        "descripcion": "Sinfonix is ​​an online musical instrument store developed as a final project for the JavaScript course at Coderhouse. It allows you to browse a wide variety of instruments, add them to your cart, manage quantities, and complete the checkout process with confirmation. <strong>It includes dark mode, custom alerts, and dynamic form validation</strong> for a modern and fluid experience.",
+        "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1761718037/landingPage/sinfonix_w1a3iv.png",
+        "github": "https://github.com/ivanshifman/ShifmanProyectoJS",
+        "demo": "https://ivanshifman.github.io/ShifmanProyectoJS/",
+        "tec": ["HTML5", "CSS3", "JavaScript"],
+        "categoria": ["frontend"],
+        "verCodigo": "See Code",
+        "verDemo": "See Demo"
+      },
+      {
+        "nombre": "Backend Proyecto Coderhouse",
+        "descripcion": "Final project for the Backend course at Coderhouse. This is an e-commerce application developed with Node.js, Express.js, and MongoDB, which allows you to manage products, shopping carts, and users. <strong>It includes authentication with Passport and JWT, validation with Joi, real-time updates with Socket.io, automated testing, and sending email and SMS notifications</strong>.",
+        "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1761718036/landingPage/shifmandesbackend_r1ahsh.png",
+        "github": "https://github.com/ivanshifman/shifman-des-backend",
+        "tec": ["Node.js", "Express.js", "MongoDB", "Swagger"],
+        "categoria": ["backend", "e-commerce"],
+        "verCodigo": "See Code"
+      }
+    ]
+  }
+}

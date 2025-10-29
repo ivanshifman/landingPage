@@ -1,0 +1,9 @@
+#experiencia {
+  width: 95dvw;
+}
+
+@media (max-width: 468px) {
+  #experiencia {
+    padding-right: 1.5rem;
+  }
+}

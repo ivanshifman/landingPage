@@ -1,0 +1,58 @@
+{
+  "es": {
+    "experiencia": [
+      {
+        "titulo": "Freelancer Developer Web",
+        "subtitulo": "Autónomo",
+        "fecha": "dic. 2023 - actualidad",
+        "descripcion": "Diseño, desarrollo y mantenimiento de aplicaciones web, asegurando la funcionalidad, escalabilidad y optimización de plataformas para ofrecer soluciones tecnológicas robustas y de alto rendimiento.<br><br>🔹 Desarrollo Full Stack con JavaScript, TypeScript, React, Next.js y NestJS.<br>🔹 Implementación de arquitecturas escalables y seguras para alto tráfico.<br>🔹 Optimización de rendimiento y experiencia de usuario (UX/UI).<br>🔹 Integración de APIs RESTful, GraphQL, WebSockets y microservicios.<br>🔹 Desarrollo y gestión de bases de datos SQL y NoSQL.<br>🔹 Mantenimiento y actualización constante de aplicaciones."
+      },
+      {
+        "titulo": "Desarrollador Web",
+        "subtitulo": "Lógico y Creativo",
+        "fecha": "abr. 2024 - oct. 2025",
+        "descripcion": "Desarrollo completo de soluciones web con stack MERN (MongoDB, Express.js, React, Node.js) y tecnologías SQL (MySQL, PostgreSQL).<br><br>🔹 Construcción de interfaces dinámicas e intuitivas.<br>🔹 Implementación de APIs RESTful seguras y eficientes.<br>🔹 Integración de funcionalidades en tiempo real con Socket.io.<br>🔹 Manejo de autenticación y autorización con JWT.<br>🔹 Control de versiones y despliegue con herramientas modernas.<br>🔹 Participación en todas las etapas del ciclo de desarrollo."
+      },
+      {
+        "titulo": "Centro de Atención Telefónica",
+        "subtitulo": "CAT Technologies Argentina",
+        "fecha": "ene. 2023 - ene. 2024",
+        "descripcion": "Atención al cliente en entorno corporativo, resolviendo consultas y brindando soporte técnico y comercial."
+      },
+      {
+        "titulo": "Venta de Indumentaria",
+        "subtitulo": "Solo Deportes",
+        "fecha": "jul. 2021 - ene. 2023",
+        "descripcion": "Asesoramiento al cliente y venta personalizada en tienda física, con enfoque en experiencia del usuario y fidelización."
+      }
+    ]
+  },
+  "en": {
+    "experiencia": [
+      {
+        "titulo": "Freelance Web Developer",
+        "subtitulo": "Self-employed",
+        "fecha": "Dec 2023 - Present",
+        "descripcion": "Design, development, and maintenance of web applications ensuring functionality, scalability, and performance optimization to deliver robust and high-performing technological solutions.<br><br>🔹 Full Stack development using JavaScript, TypeScript, React, Next.js, and NestJS.<br>🔹 Implementation of scalable and secure architectures for high-traffic platforms.<br>🔹 Continuous performance and UX/UI optimization.<br>🔹 Integration of RESTful APIs, GraphQL, WebSockets, and microservices.<br>🔹 Database management with SQL and NoSQL systems.<br>🔹 Continuous maintenance and updates for adaptability."
+      },
+      {
+        "titulo": "Web Developer",
+        "subtitulo": "Lógico y Creativo",
+        "fecha": "Apr 2024 - Oct 2025",
+        "descripcion": "Full-stack web development using the MERN stack (MongoDB, Express.js, React, Node.js) and SQL technologies (MySQL, PostgreSQL).<br><br>🔹 Built dynamic and intuitive user interfaces.<br>🔹 Developed secure and efficient RESTful APIs.<br>🔹 Integrated real-time features using Socket.io.<br>🔹 Implemented authentication and authorization with JWT.<br>🔹 Used modern tools for deployment and version control.<br>🔹 Participated in all stages of the development lifecycle."
+      },
+      {
+        "titulo": "Customer Service Representative",
+        "subtitulo": "CAT Technologies Argentina",
+        "fecha": "Jan 2023 - Jan 2024",
+        "descripcion": "Provided customer support and assistance in a corporate call center environment, resolving inquiries and offering technical and sales support."
+      },
+      {
+        "titulo": "Sales Associate",
+        "subtitulo": "Solo Deportes",
+        "fecha": "Jul 2021 - Jan 2023",
+        "descripcion": "Customer service and personalized sales in a retail environment, focusing on user experience and client retention."
+      }
+    ]
+  }
+}

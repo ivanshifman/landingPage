@@ -1,0 +1,94 @@
+#inicio {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contenedor {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  perspective: 1000px;
+}
+
+.contenedor img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  transition: transform 0.4s, visibility 0.4s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  backface-visibility: hidden;
+}
+
+.trasera {
+  visibility: hidden;
+  transform: rotateY(180deg);
+}
+
+.contenedor:hover .delantera {
+  transform: rotateY(180deg);
+  visibility: hidden;
+}
+
+.contenedor:hover .trasera {
+  transform: rotateY(0deg);
+  visibility: visible;
+}
+
+#inicioRedes {
+  margin-top: 10px;
+}
+
+#inicioRedes img {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  transition: transform 0.3s;
+}
+
+#inicioRedes img:hover {
+  transform: scale(1.2);
+}
+
+#inicioRedes .igit,
+.ilin {
+  width: 50px;
+  height: 50px;
+}
+
+.ilin {
+  filter: invert(30%) sepia(61%) saturate(2889%) hue-rotate(196deg)
+    brightness(92%) contrast(85%);
+}
+
+#iconos img {
+  max-width: 100%;
+  margin: 10px 0;
+}
+
+@media (min-width: 768px) {
+  #inicio {
+    justify-content: center;
+  }
+
+  .contenedor {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #inicioRedes img {
+    margin: 0 20px;
+  }
+
+  #presentacion {
+    width: 600px;
+  }
+}
