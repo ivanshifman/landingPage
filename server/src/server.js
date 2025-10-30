@@ -9,22 +9,12 @@ dotenv.config();
 
 const app = express();
 app.use(express.json());
-app.use(cors())
 
-const allowedOrigins = [
-  "http://localhost:3000", 
-  "https://landingpage-sorq.onrender.com/"
-];
-
-app.use(cors({
-  origin: function(origin, callback) {
-    if (!origin || allowedOrigins.includes(origin)) {
-      return callback(null, true);
-    } else {
-      return callback(new Error('CORS no permitido desde esta fuente'), false);
-    }
-  }
-}));
+app.use(
+  cors({
+    origin: "https://landingpage-sorq.onrender.com/" || "http://localhost:3000",
+  })
+);
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
