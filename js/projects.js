@@ -37,7 +37,7 @@ export function insertProjects(projects) {
         <div class="proyecto ${efectoClase}">
           <img src="${project.imagen}" alt="Imagen del proyecto ${
         project.nombre
-      }">
+      }" loading="lazy">
           <div class="proyecto-detalles">
             <h4>${project.nombre}</h4>
             <p>${project.descripcion}</p>

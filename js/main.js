@@ -1,13 +1,12 @@
 import { initContent } from "./dataLoader.js";
-import { loadLanguage } from "./translation.js";
+import { loadLanguage, updateMetaTags } from "./translation.js";
 import { setupNavbarLinks, setupFilterButtons } from "./navigation.js";
 import { initializeDarkModeToggle } from "./darkmode.js";
 import { setupPhotoFlip } from "./photoFlip.js";
 import { checkVisibility, checkPageEndVisibility } from "./visibility.js";
 import { filterProjects } from "./projects.js";
+import { renderSkillsIcons } from "./skillsRenderer.js";
 import { updateYear } from "./year.js";
-
-window.language = "es";
 
 if ("scrollRestoration" in history) {
   history.scrollRestoration = "manual";
@@ -18,15 +17,26 @@ window.addEventListener("load", () => {
 });
 
 document.addEventListener("DOMContentLoaded", async () => {
-  await initContent("es");
+  const languageToggle = document.querySelector("#toggle-checkbox");
+  const savedLanguage = localStorage.getItem("preferredLanguage") || "es";
+  window.language = savedLanguage;
 
-  document
-    .querySelector("#toggle-checkbox")
-    .addEventListener("change", async (e) => {
-      language = e.target.checked ? "en" : "es";
-      await initContent(language);
-      loadLanguage();
-    });
+  languageToggle.checked = savedLanguage === "en";
+
+  await initContent(savedLanguage);
+  await renderSkillsIcons();
+  loadLanguage();
+  updateMetaTags();
+
+  languageToggle.addEventListener("change", async (e) => {
+    const newLanguage = e.target.checked ? "en" : "es";
+    window.language = newLanguage;
+
+    localStorage.setItem("preferredLanguage", newLanguage);
+
+    await initContent(newLanguage);
+    loadLanguage();
+  });
 
   setupNavbarLinks();
   setupFilterButtons();
@@ -50,7 +60,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       container.classList.toggle("list-view");
     });
 
-    if (language === "es") {
+    if (window.language === "es") {
       this.textContent = this.textContent.includes("Nombres")
         ? "Mostrar Iconos"
         : "Mostrar Nombres";
@@ -64,3 +74,4 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 window.addEventListener("scroll", checkVisibility);
 window.addEventListener("scroll", checkPageEndVisibility);
+

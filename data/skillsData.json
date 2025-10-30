@@ -1,0 +1,47 @@
+{
+  "backend": [
+    { "name": "Node.js", "icon": "https://skillicons.dev/icons?i=nodejs" },
+    { "name": "Express", "icon": "https://skillicons.dev/icons?i=express" },
+    { "name": "NestJS", "icon": "https://skillicons.dev/icons?i=nestjs" },
+    { "name": "C#", "icon": "https://skillicons.dev/icons?i=c#" },
+    { "name": "MongoDB", "icon": "https://skillicons.dev/icons?i=mongo" },
+    { "name": "MySQL", "icon": "https://skillicons.dev/icons?i=mysql" },
+    { "name": "SQLite", "icon": "https://skillicons.dev/icons?i=sqlite" },
+    { "name": "Firebase", "icon": "https://skillicons.dev/icons?i=firebase" },
+    { "name": "Prisma", "icon": "https://skillicons.dev/icons?i=prisma" }
+  ],
+  "frontend": [
+    { "name": "HTML", "icon": "https://skillicons.dev/icons?i=html" },
+    { "name": "CSS", "icon": "https://skillicons.dev/icons?i=css" },
+    { "name": "JavaScript", "icon": "https://skillicons.dev/icons?i=js" },
+    { "name": "TypeScript", "icon": "https://skillicons.dev/icons?i=ts" },
+    { "name": "React", "icon": "https://skillicons.dev/icons?i=react" },
+    { "name": "NextJS", "icon": "https://skillicons.dev/icons?i=nextjs" },
+    { "name": "Vite", "icon": "https://skillicons.dev/icons?i=vite" },
+    { "name": "Bootstrap", "icon": "https://skillicons.dev/icons?i=bootstrap" },
+    {
+      "name": "Tailwind CSS",
+      "icon": "https://skillicons.dev/icons?i=tailwind"
+    }
+  ],
+  "tools": [
+    { "name": "Git", "icon": "https://skillicons.dev/icons?i=git" },
+    { "name": "GitHub", "icon": "https://skillicons.dev/icons?i=github" },
+    {
+      "name": "PowerShell",
+      "icon": "https://skillicons.dev/icons?i=powershell"
+    },
+    { "name": "Docker", "icon": "https://skillicons.dev/icons?i=docker" },
+    {
+      "name": "Kubernetes",
+      "icon": "https://skillicons.dev/icons?i=kubernetes"
+    },
+    { "name": "Postman", "icon": "https://skillicons.dev/icons?i=postman" },
+    { "name": "VS Code", "icon": "https://skillicons.dev/icons?i=vscode" },
+    { "name": "Figma", "icon": "https://skillicons.dev/icons?i=figma" },
+    {
+      "name": "Stack Overflow",
+      "icon": "https://skillicons.dev/icons?i=stackoverflow"
+    }
+  ]
+}

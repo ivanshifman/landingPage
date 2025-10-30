@@ -26,7 +26,12 @@
     "contactoRedes": "O también puedes contactarme a través de mis redes sociales:",
     "footerRights": "© Todos los derechos reservados",
     "cambiarIdioma": "Cambiar Idioma",
-    "modoOscuro": "Modo Oscuro"
+    "modoOscuro": "Modo Oscuro",
+    "metaDescription": "Portafolio oficial de Iván Shifman, Full Stack Web Developer especializado en frontend y backend. Descubre proyectos innovadores, habilidades técnicas, experiencia laboral y formas de contacto.",
+    "metaKeywords": "Iván Shifman, desarrollador web, Full Stack, frontend, backend, JavaScript, React, Node.js, proyectos web, portfolio, habilidades, experiencia laboral, contacto, web developer",
+    "metaOgTitle": "Iván Shifman | Desarrollador Full Stack",
+    "metaOgDescription": "Portafolio oficial de Iván Shifman. Conocé sus proyectos, habilidades técnicas y experiencia laboral en desarrollo web Full Stack. Contacto directo disponible.",
+    "pageTitle": "Iván Shifman - Desarrollador Full Stack"
   },
   "en": {
     "inicio": "Home",
@@ -55,6 +60,11 @@
     "contactoRedes": "Or you can also contact me through my social networks:",
     "footerRights": "© All rights reserved",
     "cambiarIdioma": "Change Language",
-    "modoOscuro": "Dark Mode"
+    "modoOscuro": "Dark Mode",
+    "metaDescription": "Official portfolio of Ivan Shifman, Full Stack Web Developer. Discover innovative projects, technical skills, work experience, and ways to contact me.",
+    "metaKeywords": "Ivan Shifman, web developer, Full Stack, frontend, backend, JavaScript, React, Node.js, web projects, portfolio, skills, work experience, contact, web developer",
+    "metaOgTitle": "Ivan Shifman | Full Stack Web Developer",
+    "metaOgDescription": "Official portfolio of Ivan Shifman. Get to know his projects, technical skills, and work experience in Full Stack web development. Direct contact available.",
+    "pageTitle": "Ivan Shifman - Full Stack Web Developer"
   }
 }

@@ -34,3 +34,29 @@ export function loadLanguage() {
   document.querySelector(".contacto-redes").textContent = data.contactoRedes;
   document.querySelectorAll("#footer p")[1].textContent = data.footerRights;
 }
+
+export function updateMetaTags() {
+  const data = window.translation;
+
+  let metaDescription = document.querySelector("meta[name='description']");
+  if (metaDescription) {
+    metaDescription.setAttribute("content", data.metaDescription || data.presentacion.replace(/<[^>]+>/g, ""));
+  }
+
+  let ogDescription = document.querySelector("meta[property='og:description']");
+  if (ogDescription) {
+    ogDescription.setAttribute("content", data.metaDescription || data.presentacion.replace(/<[^>]+>/g, ""));
+  }
+
+  let ogTitle = document.querySelector("meta[property='og:title']");
+  if (ogTitle) {
+    ogTitle.setAttribute("content", `${data.metaOgTitle} | Iván Shifman`);
+  }
+
+  let metaKeywords = document.querySelector("meta[name='keywords']");
+  if (metaKeywords) {
+    metaKeywords.setAttribute("content", data.metaKeywords || "");
+  }
+
+  document.title = `${data.pageTitle}`;
+}

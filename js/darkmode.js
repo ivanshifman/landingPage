@@ -9,8 +9,20 @@ export function initializeDarkModeToggle() {
     document.getElementById("contacto"),
   ];
 
+  const savedDarkMode = localStorage.getItem("darkModeEnabled") === "true";
+
+  if (savedDarkMode) {
+    checkbox.checked = true;
+    elements.forEach((el) => el.classList.add("dark-mode"));
+  } else {
+    checkbox.checked = false;
+    elements.forEach((el) => el.classList.remove("dark-mode"));
+  }
+
   checkbox.addEventListener("change", () => {
     const isChecked = checkbox.checked;
     elements.forEach((el) => el.classList.toggle("dark-mode", isChecked));
+
+    localStorage.setItem("darkModeEnabled", isChecked);
   });
 }
