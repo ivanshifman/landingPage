@@ -10,7 +10,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: ["https://landingpagefront-sorq.onrender.com", "http://localhost:3000", "http://127.0.0.1:5500"],
+    origin: ["https://landingpagefront.onrender.com", "http://localhost:3000", "http://127.0.0.1:5500"],
     methods: ["GET", "POST", "OPTIONS"],
     allowedHeaders: ["Content-Type"],
   })
