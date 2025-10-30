@@ -7,6 +7,7 @@ export const sendContactEmail = async (req, res) => {
   const transporter = nodemailer.createTransport({
     host: process.env.MAILER_HOST,
     port: process.env.MAILER_PORT,
+    secure: false,
     auth: {
       user: process.env.MAILER_USERNAME,
       pass: process.env.MAILER_PASSWORD,
@@ -15,8 +16,9 @@ export const sendContactEmail = async (req, res) => {
 
   try {
     await transporter.sendMail({
-      from: email,
-      to: process.env.MAILER_USERNAME,
+      from: `"${name}" <${process.env.MAILER_MAIL}>`,
+      replyTo: email,
+      to: process.env.MAILER_MAIL,
       subject:
         lang === "es" ? "Nuevo mensaje de contacto" : "New contact message",
       html: getEmailTemplate(name, email, message, lang),
