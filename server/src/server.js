@@ -12,7 +12,9 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "https://landingpage-sorq.onrender.com/" || "http://localhost:3000",
+    origin: ["https://landingpage-sorq.onrender.com", "http://localhost:3000"],
+    methods: ["GET", "POST", "OPTIONS"],
+    allowedHeaders: ["Content-Type"],
   })
 );
 
