@@ -91,6 +91,17 @@
         "tec": ["Node.js", "Express.js", "MongoDB", "Swagger"],
         "categoria": ["backend", "e-commerce"],
         "verCodigo": "Ver Código"
+      },
+      {
+        "nombre": "Contact List App",
+        "descripcion": "Contact List App es una aplicación sencilla desarrollada con React que permite a los usuarios gestionar una lista de contactos. Los usuarios pueden agregar, editar y eliminar contactos, así como buscar contactos específicos mediante una barra de búsqueda. <strong>El proyecto se centra en la usabilidad y la experiencia del usuario, utilizando componentes reutilizables y un diseño limpio.</strong>",
+        "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1763907018/landingPage/contactListApp._ekasxv.png",
+        "github": "https://github.com/ivanshifman/contactListApp",
+        "demo": "https://contact-list-app-henna.vercel.app/",
+        "tec": ["React", "Tailwind CSS", "Swagger", "Nest.js", "PostgreSQL", "TypeScript"],
+        "categoria": ["fullstack"],
+        "verCodigo": "Ver Código",
+        "verDemo": "Ver Demo"
       }
     ]
   },
@@ -186,6 +197,17 @@
         "tec": ["Node.js", "Express.js", "MongoDB", "Swagger"],
         "categoria": ["backend", "e-commerce"],
         "verCodigo": "See Code"
+      }, 
+      {
+        "nombre": "Contact List App",
+        "descripcion": "Contact List App is a simple application developed with React that allows users to manage a contact list. Users can add, edit, and delete contacts, as well as search for specific contacts using a search bar. <strong>The project focuses on usability and user experience, utilizing reusable components and a clean design.</strong>",
+        "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1763907018/landingPage/contactListApp._ekasxv.png",
+        "github": "https://github.com/ivanshifman/contactListApp",
+        "demo": "https://contact-list-app-henna.vercel.app/",
+        "tec": ["React", "Tailwind CSS", "Swagger", "Nest.js", "PostgreSQL", "TypeScript"],
+        "categoria": ["fullstack"],
+        "verCodigo": "See Code",
+        "verDemo": "See Demo"
       }
     ]
   }
