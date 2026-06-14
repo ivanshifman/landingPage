@@ -17,7 +17,11 @@
           "MongoDB",
           "Stripe"
         ],
-        "categoria": ["e-commerce", "fullstack", "tecnología"],
+        "categoria": [
+          "e-commerce",
+          "fullstack",
+          "tecnología"
+        ],
         "verCodigo": "Ver Código Frontend",
         "verCodigoBack": "Ver Código Backend",
         "verDemo": "Ver Demo"
@@ -37,7 +41,11 @@
           "PostgreSQL",
           "TypeScript"
         ],
-        "categoria": ["fullstack", "gestión", "dashboard"],
+        "categoria": [
+          "fullstack",
+          "gestión",
+          "dashboard"
+        ],
         "verCodigo": "Ver Código",
         "verDemo": "Ver Demo"
       },
@@ -47,8 +55,16 @@
         "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1761718037/landingPage/shopcart_tgc8rd.png",
         "github": "https://github.com/ivanshifman/shop-cart",
         "demo": "https://shop-cart-85bb3.web.app/",
-        "tec": ["React", "Firebase", "CSS3", "SASS"],
-        "categoria": ["frontend", "e-commerce"],
+        "tec": [
+          "React",
+          "Firebase",
+          "CSS3",
+          "SASS"
+        ],
+        "categoria": [
+          "frontend",
+          "e-commerce"
+        ],
         "verCodigo": "Ver Código",
         "verDemo": "Ver Demo"
       },
@@ -58,8 +74,16 @@
         "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1761718036/landingPage/computronix_bgmnu4.png",
         "github": "https://github.com/ivanshifman/shifman-react",
         "demo": "https://shifman-react.vercel.app/",
-        "tec": ["React", "Firebase", "JavaScript", "CSS3"],
-        "categoria": ["frontend", "e-commerce"],
+        "tec": [
+          "React",
+          "Firebase",
+          "JavaScript",
+          "CSS3"
+        ],
+        "categoria": [
+          "frontend",
+          "e-commerce"
+        ],
         "verCodigo": "Ver Código",
         "verDemo": "Ver Demo"
       },
@@ -68,8 +92,15 @@
         "descripcion": "Club Deportivo es un sistema integral de gestión y autoservicio desarrollado en C# con .NET Framework y MySQL. Permite administrar socios, actividades, cuotas y pagos desde un entorno de escritorio intuitivo. <strong>Incluye módulos diferenciados para socios, no socios y administradores</strong>, integrando formularios validados, control de acceso y un manejo eficiente de datos mediante repositorios personalizados.",
         "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1761718035/landingPage/clubdeportivo_pqwmli.png",
         "github": "https://github.com/ivanshifman/ClubDeportivo",
-        "tec": ["C#", ".NET Framework (Windows Forms)", "MySQL"],
-        "categoria": ["desktop", "gestión"],
+        "tec": [
+          "C#",
+          ".NET Framework (Windows Forms)",
+          "MySQL"
+        ],
+        "categoria": [
+          "desktop",
+          "gestión"
+        ],
         "verCodigo": "Ver Código"
       },
       {
@@ -78,8 +109,14 @@
         "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1761718037/landingPage/sinfonix_w1a3iv.png",
         "github": "https://github.com/ivanshifman/ShifmanProyectoJS",
         "demo": "https://ivanshifman.github.io/ShifmanProyectoJS/",
-        "tec": ["HTML5", "CSS3", "JavaScript"],
-        "categoria": ["frontend"],
+        "tec": [
+          "HTML5",
+          "CSS3",
+          "JavaScript"
+        ],
+        "categoria": [
+          "frontend"
+        ],
         "verCodigo": "Ver Código",
         "verDemo": "Ver Demo"
       },
@@ -88,8 +125,16 @@
         "descripcion": "Proyecto final del curso de Backend en Coderhouse. Se trata de una aplicación de comercio electrónico desarrollada con Node.js, Express.js y MongoDB, que permite gestionar productos, carritos y usuarios. <strong>Incluye autenticación con Passport y JWT, validaciones con Joi, actualizaciones en tiempo real con Socket.io, testing automatizado y envío de notificaciones por correo y SMS</strong>.",
         "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1761718036/landingPage/shifmandesbackend_r1ahsh.png",
         "github": "https://github.com/ivanshifman/shifman-des-backend",
-        "tec": ["Node.js", "Express.js", "MongoDB", "Swagger"],
-        "categoria": ["backend", "e-commerce"],
+        "tec": [
+          "Node.js",
+          "Express.js",
+          "MongoDB",
+          "Swagger"
+        ],
+        "categoria": [
+          "backend",
+          "e-commerce"
+        ],
         "verCodigo": "Ver Código"
       },
       {
@@ -98,10 +143,58 @@
         "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1763907018/landingPage/contactListApp._ekasxv.png",
         "github": "https://github.com/ivanshifman/contactListApp",
         "demo": "https://contact-list-app-henna.vercel.app/",
-        "tec": ["React", "Tailwind CSS", "Swagger", "Nest.js", "PostgreSQL", "TypeScript"],
-        "categoria": ["fullstack"],
+        "tec": [
+          "React",
+          "Tailwind CSS",
+          "Swagger",
+          "Nest.js",
+          "PostgreSQL",
+          "TypeScript"
+        ],
+        "categoria": [
+          "fullstack"
+        ],
         "verCodigo": "Ver Código",
         "verDemo": "Ver Demo"
+      },
+      {
+        "nombre": "El Atahualpa",
+        "descripcion": "El Atahualpa es una plataforma de comercio electrónico especializada en la venta de indumentaria y productos tradicionales de campo. Desarrollé tanto el frontend como el backend, construyendo una solución full-stack completamente funcional con autenticación, gestión de productos, carrito de compras, procesamiento de pedidos y panel administrativo. <strong>El proyecto fue desarrollado con Next.js, NestJS y MongoDB, priorizando rendimiento, escalabilidad y una experiencia de usuario moderna adaptada al comercio electrónico.</strong>",
+        "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1781419974/landingPage/El_Atahualpa.png",
+        "github": "https://github.com/ivanshifman/ecommerce-LaPilcha",
+        "demo": "https://elatahualpa.com.ar/",
+        "tec": [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "NestJS",
+          "MongoDB",
+          "Node.js"
+        ],
+        "categoria": [
+          "e-commerce",
+          "fullstack"
+        ],
+        "verCodigo": "Ver Código",
+        "verDemo": "Ver Demo"
+      },
+      {
+        "nombre": "Club Deportivo Mobile",
+        "descripcion": "Club Deportivo Mobile es una aplicación académica colaborativa desarrollada en Kotlin para Android Studio que simula la gestión integral de un club deportivo. Permite administrar socios, actividades, inscripciones y consultas desde una interfaz móvil intuitiva. <strong>Participé en el desarrollo de funcionalidades clave, aplicando arquitectura por capas, navegación entre pantallas y persistencia de datos, replicando escenarios reales de una aplicación de gestión deportiva.</strong>",
+        "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1781420237/landingPage/Club_Deportivo_Mobile.png",
+        "github": "https://github.com/SabatoCom24212/DAM_2A_1C26_ClubDeportivo",
+        "tec": [
+          "Kotlin",
+          "Android Studio",
+          "Jetpack Compose",
+          "SQLite"
+        ],
+        "categoria": [
+          "mobile",
+          "android",
+          "académico"
+        ],
+        "verCodigo": "Ver Código"
       }
     ]
   },
@@ -123,7 +216,11 @@
           "MongoDB",
           "Stripe"
         ],
-        "categoria": ["e-commerce", "fullstack", "tecnology"],
+        "categoria": [
+          "e-commerce",
+          "fullstack",
+          "tecnology"
+        ],
         "verCodigo": "See Code Frontend",
         "verCodigoBack": "See Code Backend",
         "verDemo": "See Demo"
@@ -143,7 +240,11 @@
           "PostgreSQL",
           "TypeScript"
         ],
-        "categoria": ["fullstack", "management", "dashboard"],
+        "categoria": [
+          "fullstack",
+          "management",
+          "dashboard"
+        ],
         "verCodigo": "See Code",
         "verDemo": "See Demo"
       },
@@ -153,8 +254,16 @@
         "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1761718037/landingPage/shopcart_tgc8rd.png",
         "github": "https://github.com/ivanshifman/shop-cart",
         "demo": "https://shop-cart-85bb3.web.app/",
-        "tec": ["React", "Firebase", "CSS3", "SASS"],
-        "categoria": ["frontend", "e-commerce"],
+        "tec": [
+          "React",
+          "Firebase",
+          "CSS3",
+          "SASS"
+        ],
+        "categoria": [
+          "frontend",
+          "e-commerce"
+        ],
         "verCodigo": "See Code",
         "verDemo": "See Demo"
       },
@@ -164,8 +273,16 @@
         "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1761718036/landingPage/computronix_bgmnu4.png",
         "github": "https://github.com/ivanshifman/shifman-react",
         "demo": "https://shifman-react.vercel.app/",
-        "tec": ["React", "Firebase", "JavaScript", "CSS3"],
-        "categoria": ["frontend", "e-commerce"],
+        "tec": [
+          "React",
+          "Firebase",
+          "JavaScript",
+          "CSS3"
+        ],
+        "categoria": [
+          "frontend",
+          "e-commerce"
+        ],
         "verCodigo": "See Code",
         "verDemo": "See Demo"
       },
@@ -174,8 +291,15 @@
         "descripcion": "Club Deportivo is a comprehensive management and self-service system developed in C# with the .NET Framework and MySQL. It allows you to manage members, activities, dues, and payments from an intuitive desktop environment. <strong>It includes separate modules for members, non-members, and administrators</strong>, integrating validated forms, access control, and efficient data management through custom repositories.",
         "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1761718035/landingPage/clubdeportivo_pqwmli.png",
         "github": "https://github.com/ivanshifman/ClubDeportivo",
-        "tec": ["C#", ".NET Framework (Windows Forms)", "MySQL"],
-        "categoria": ["desktop", "management"],
+        "tec": [
+          "C#",
+          ".NET Framework (Windows Forms)",
+          "MySQL"
+        ],
+        "categoria": [
+          "desktop",
+          "management"
+        ],
         "verCodigo": "See Code"
       },
       {
@@ -184,8 +308,14 @@
         "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1761718037/landingPage/sinfonix_w1a3iv.png",
         "github": "https://github.com/ivanshifman/ShifmanProyectoJS",
         "demo": "https://ivanshifman.github.io/ShifmanProyectoJS/",
-        "tec": ["HTML5", "CSS3", "JavaScript"],
-        "categoria": ["frontend"],
+        "tec": [
+          "HTML5",
+          "CSS3",
+          "JavaScript"
+        ],
+        "categoria": [
+          "frontend"
+        ],
         "verCodigo": "See Code",
         "verDemo": "See Demo"
       },
@@ -194,20 +324,76 @@
         "descripcion": "Final project for the Backend course at Coderhouse. This is an e-commerce application developed with Node.js, Express.js, and MongoDB, which allows you to manage products, shopping carts, and users. <strong>It includes authentication with Passport and JWT, validation with Joi, real-time updates with Socket.io, automated testing, and sending email and SMS notifications</strong>.",
         "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1761718036/landingPage/shifmandesbackend_r1ahsh.png",
         "github": "https://github.com/ivanshifman/shifman-des-backend",
-        "tec": ["Node.js", "Express.js", "MongoDB", "Swagger"],
-        "categoria": ["backend", "e-commerce"],
+        "tec": [
+          "Node.js",
+          "Express.js",
+          "MongoDB",
+          "Swagger"
+        ],
+        "categoria": [
+          "backend",
+          "e-commerce"
+        ],
         "verCodigo": "See Code"
-      }, 
+      },
       {
         "nombre": "Contact List App",
         "descripcion": "Contact List App is a simple application developed with React that allows users to manage a contact list. Users can add, edit, and delete contacts, as well as search for specific contacts using a search bar. <strong>The project focuses on usability and user experience, utilizing reusable components and a clean design.</strong>",
         "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1763907018/landingPage/contactListApp._ekasxv.png",
         "github": "https://github.com/ivanshifman/contactListApp",
         "demo": "https://contact-list-app-henna.vercel.app/",
-        "tec": ["React", "Tailwind CSS", "Swagger", "Nest.js", "PostgreSQL", "TypeScript"],
-        "categoria": ["fullstack"],
+        "tec": [
+          "React",
+          "Tailwind CSS",
+          "Swagger",
+          "Nest.js",
+          "PostgreSQL",
+          "TypeScript"
+        ],
+        "categoria": [
+          "fullstack"
+        ],
         "verCodigo": "See Code",
         "verDemo": "See Demo"
+      },
+      {
+        "nombre": "El Atahualpa",
+        "descripcion": "El Atahualpa is an e-commerce platform specialized in the sale of traditional countryside clothing and products. I developed both the frontend and backend, building a fully functional full-stack solution with authentication, product management, shopping cart, order processing, and an administrative dashboard. <strong>The project was built using Next.js, NestJS, and MongoDB, focusing on performance, scalability, and delivering a modern shopping experience tailored to the e-commerce industry.</strong>",
+        "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1781419974/landingPage/El_Atahualpa.png",
+        "github": "https://github.com/ivanshifman/ecommerce-LaPilcha",
+        "demo": "https://elatahualpa.com.ar/",
+        "tec": [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "NestJS",
+          "MongoDB",
+          "Node.js"
+        ],
+        "categoria": [
+          "e-commerce",
+          "fullstack"
+        ],
+        "verCodigo": "See Code",
+        "verDemo": "See Demo"
+      },
+      {
+        "nombre": "Club Deportivo Mobile",
+        "descripcion": "Club Deportivo Mobile is a collaborative academic mobile application developed in Kotlin using Android Studio that simulates the complete management of a sports club. The application allows users to manage members, activities, registrations, and administrative processes through an intuitive mobile interface. <strong>I contributed to the development of key features, applying layered architecture, screen navigation, data persistence, and software engineering best practices to recreate a real-world sports management environment.</strong>",
+        "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1781420237/landingPage/Club_Deportivo_Mobile.png",
+        "github": "https://github.com/SabatoCom24212/DAM_2A_1C26_ClubDeportivo",
+        "tec": [
+          "Kotlin",
+          "Android Studio",
+          "Jetpack Compose",
+          "SQLite"
+        ],
+        "categoria": [
+          "mobile",
+          "android",
+          "academic"
+        ],
+        "verCodigo": "See Code"
       }
     ]
   }

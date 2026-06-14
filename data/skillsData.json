@@ -7,8 +7,10 @@
     { "name": "MongoDB", "icon": "https://skillicons.dev/icons?i=mongo" },
     { "name": "MySQL", "icon": "https://skillicons.dev/icons?i=mysql" },
     { "name": "SQLite", "icon": "https://skillicons.dev/icons?i=sqlite" },
+    { "name": "PostgreSQL", "icon": "https://skillicons.dev/icons?i=postgresql" },
     { "name": "Firebase", "icon": "https://skillicons.dev/icons?i=firebase" },
-    { "name": "Prisma", "icon": "https://skillicons.dev/icons?i=prisma" }
+    { "name": "Prisma", "icon": "https://skillicons.dev/icons?i=prisma" },
+    { "name": "Kotlin", "icon": "https://skillicons.dev/icons?i=kotlin" }
   ],
   "frontend": [
     { "name": "HTML", "icon": "https://skillicons.dev/icons?i=html" },
