@@ -181,7 +181,7 @@
       {
         "nombre": "Club Deportivo Mobile",
         "descripcion": "Club Deportivo Mobile es una aplicación académica colaborativa desarrollada en Kotlin para Android Studio que simula la gestión integral de un club deportivo. Permite administrar socios, actividades, inscripciones y consultas desde una interfaz móvil intuitiva. <strong>Participé en el desarrollo de funcionalidades clave, aplicando arquitectura por capas, navegación entre pantallas y persistencia de datos, replicando escenarios reales de una aplicación de gestión deportiva.</strong>",
-        "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1781420237/landingPage/Club_Deportivo_Mobile.png",
+        "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1781420791/landingPage/Club_Deportivo_Mobile.png",
         "github": "https://github.com/SabatoCom24212/DAM_2A_1C26_ClubDeportivo",
         "tec": [
           "Kotlin",
@@ -380,7 +380,7 @@
       {
         "nombre": "Club Deportivo Mobile",
         "descripcion": "Club Deportivo Mobile is a collaborative academic mobile application developed in Kotlin using Android Studio that simulates the complete management of a sports club. The application allows users to manage members, activities, registrations, and administrative processes through an intuitive mobile interface. <strong>I contributed to the development of key features, applying layered architecture, screen navigation, data persistence, and software engineering best practices to recreate a real-world sports management environment.</strong>",
-        "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1781420237/landingPage/Club_Deportivo_Mobile.png",
+        "imagen": "https://res.cloudinary.com/dtn92tadl/image/upload/v1781420791/landingPage/Club_Deportivo_Mobile.png",
         "github": "https://github.com/SabatoCom24212/DAM_2A_1C26_ClubDeportivo",
         "tec": [
           "Kotlin",
